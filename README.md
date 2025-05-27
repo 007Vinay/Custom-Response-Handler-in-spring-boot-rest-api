@@ -49,10 +49,10 @@ com.thinkconstructive.restdemo
 
 ## ⚙️ How to Run the Application
 
-1. Make sure MySQL is running and a database is created (e.g., `cloudvendor_db`).
+1. Make sure MySQL is running and a database is created (e.g., `cloud_vendor`).
 2. Configure your `application.properties`:
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/cloudvendor_db
+   spring.datasource.url=jdbc:mysql://localhost:3306/cloud_vendor
    spring.datasource.username=root
    spring.datasource.password=your_password
    spring.jpa.hibernate.ddl-auto=update
